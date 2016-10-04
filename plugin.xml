@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="com.edimax.edilife2"
-        version="cli-5.4.1">
+        version="0.0.1">
 
   <name>Edimax IOS</name>
   <description>
@@ -9,32 +9,45 @@
   </description>
 
   <engines>
-    <engine name="cordova" version=">=3.4.0"/>
+    <engine name="cordova" version=">=cli-5.4.1"/>
   </engines>
 
-  <asset src="www/rtspPlayer.js" target="js/rtspPlayer.js"/>
+  <asset src="www/edimax.js" target="js/edimax.js"/>
 
-  <js-module src="www/rtspPlayer.js" name="rtspPlayer">
-    <clobbers target="rtspPlayer" />
+  <js-module src="www/edimax.js" name="edimax">
+    <clobbers target="edimax" />
   </js-module>
 
   <platform name="ios">
 
     <config-file target="config.xml" parent="/widget">
-      <feature name="rtspPlayer">
-        <param name="ios-package" value="CDVrtspPlayer" />
+      <feature name="edimax">
+        <param name="ios-package" value="com.edimax.edilife2" />
       </feature>
     </config-file>
 
-    <source-file src="lib/dist/libMediaStreamingLib.a" framework="true" />
-    <resource-file src="lib/dist/Resources/RTSPViewController_iPhone.xib" />
-    <framework src="libz.dylib" />
-    <framework src="libbz2.dylib" />
-    <framework src="libiconv.dylib" />
+	
+	
+    <source-file src="lib/dist/libLifeLibrary.a" framework="true" />
+    <resource-file src="lib/dist/Resources/Main.storyboard" />
+	<resource-file src="lib/dist/Resources/LaunchScreen.storyboard" />
+    <framework src="CoreGraphics.framework" />
+    <framework src="UIKit.framework" />
+    <framework src="Foundation.framework" />
+    <framework src="AVFoundation.framework" />
 
-    <header-file src="lib/MediaStreamingLib/MediaStreamingLib/RTSPViewController.h" target-dir="rtspplayer/MediaStreamingLib"/>
-    <header-file src="src/ios/CDVrtspPlayer.h" target-dir="rtspplayer"/>
-    <source-file src="src/ios/CDVrtspPlayer.m" target-dir="rtspplayer"/>
+	
+	<header-file src="lib/LifeLibExample/LifeLibExample/ViewController.h" target-dir="rtspplayer/MediaStreamingLib"/>
+	
+    <header-file src="src/ios/AppDelegate.h" target-dir="edimax"/>
+	<header-file src="src/ios/LifeLibrary.h" target-dir="edimax"/>
+	<header-file src="src/ios/ViewController.h" target-dir="edimax"/>
+	
+
+    <source-file src="src/ios/AppDelegate.m" target-dir="edimax"/>
+	<source-file src="src/ios/main.m" target-dir="edimax"/>
+	<source-file src="src/ios/ViewController.m" target-dir="edimax"/>
+	
   </platform>
 
 </plugin>

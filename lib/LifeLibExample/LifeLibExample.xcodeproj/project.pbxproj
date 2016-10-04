@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1703701D07AE100094FE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F17036F1D07AE100094FE3C /* main.m */; };
+		5F1703731D07AE100094FE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1703721D07AE100094FE3C /* AppDelegate.m */; };
+		5F1703761D07AE100094FE3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1703751D07AE100094FE3C /* ViewController.m */; };
+		5F1703791D07AE100094FE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1703771D07AE100094FE3C /* Main.storyboard */; };
+		5F17037B1D07AE100094FE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F17037A1D07AE100094FE3C /* Assets.xcassets */; };
+		5F17037E1D07AE100094FE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F17037C1D07AE100094FE3C /* LaunchScreen.storyboard */; };
+		5F1721851D0E935D0096FE7B /* libLifeLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1721841D0E935D0096FE7B /* libLifeLibrary.a */; };
+		5F3626831D07C580001F95D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3626821D07C580001F95D1 /* AVFoundation.framework */; };
+		5F3626851D07C587001F95D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3626841D07C587001F95D1 /* Foundation.framework */; };
+		5F3626871D07C58F001F95D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3626861D07C58F001F95D1 /* UIKit.framework */; };
+		5F3626891D07C59A001F95D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3626881D07C59A001F95D1 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F17036B1D07AE100094FE3C /* LifeLibExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeLibExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F17036F1D07AE100094FE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F1703711D07AE100094FE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F1703721D07AE100094FE3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F1703741D07AE100094FE3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F1703751D07AE100094FE3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F1703781D07AE100094FE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F17037A1D07AE100094FE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F17037D1D07AE100094FE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F17037F1D07AE100094FE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1721841D0E935D0096FE7B /* libLifeLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLifeLibrary.a; path = LifeLibExample/libLifeLibrary.a; sourceTree = "<group>"; };
+		5F3626821D07C580001F95D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5F3626841D07C587001F95D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F3626861D07C58F001F95D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F3626881D07C59A001F95D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FF507F41D0E949C00CC6857 /* LifeLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifeLibrary.h; path = LifeLibExample/LifeLibrary.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F1703681D07AE100094FE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3626891D07C59A001F95D1 /* CoreGraphics.framework in Frameworks */,
+				5F1721851D0E935D0096FE7B /* libLifeLibrary.a in Frameworks */,
+				5F3626871D07C58F001F95D1 /* UIKit.framework in Frameworks */,
+				5F3626851D07C587001F95D1 /* Foundation.framework in Frameworks */,
+				5F3626831D07C580001F95D1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1703621D07AE100094FE3C = {
+			isa = PBXGroup;
+			children = (
+				5FF507F41D0E949C00CC6857 /* LifeLibrary.h */,
+				5F1721841D0E935D0096FE7B /* libLifeLibrary.a */,
+				5F3626881D07C59A001F95D1 /* CoreGraphics.framework */,
+				5F3626861D07C58F001F95D1 /* UIKit.framework */,
+				5F3626841D07C587001F95D1 /* Foundation.framework */,
+				5F3626821D07C580001F95D1 /* AVFoundation.framework */,
+				5F17036D1D07AE100094FE3C /* LifeLibExample */,
+				5F17036C1D07AE100094FE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F17036C1D07AE100094FE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F17036B1D07AE100094FE3C /* LifeLibExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F17036D1D07AE100094FE3C /* LifeLibExample */ = {
+			isa = PBXGroup;
+			children = (
+				5F1703711D07AE100094FE3C /* AppDelegate.h */,
+				5F1703721D07AE100094FE3C /* AppDelegate.m */,
+				5F1703741D07AE100094FE3C /* ViewController.h */,
+				5F1703751D07AE100094FE3C /* ViewController.m */,
+				5F1703771D07AE100094FE3C /* Main.storyboard */,
+				5F17037A1D07AE100094FE3C /* Assets.xcassets */,
+				5F17037C1D07AE100094FE3C /* LaunchScreen.storyboard */,
+				5F17037F1D07AE100094FE3C /* Info.plist */,
+				5F17036E1D07AE100094FE3C /* Supporting Files */,
+			);
+			path = LifeLibExample;
+			sourceTree = "<group>";
+		};
+		5F17036E1D07AE100094FE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F17036F1D07AE100094FE3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F17036A1D07AE100094FE3C /* LifeLibExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1703821D07AE100094FE3C /* Build configuration list for PBXNativeTarget "LifeLibExample" */;
+			buildPhases = (
+				5F1703671D07AE100094FE3C /* Sources */,
+				5F1703681D07AE100094FE3C /* Frameworks */,
+				5F1703691D07AE100094FE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeLibExample;
+			productName = LifeLibExample;
+			productReference = 5F17036B1D07AE100094FE3C /* LifeLibExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F1703631D07AE100094FE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1,
+					2,
+				);
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HikaruBB;
+				TargetAttributes = {
+					5F17036A1D07AE100094FE3C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5F1703661D07AE100094FE3C /* Build configuration list for PBXProject "LifeLibExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F1703621D07AE100094FE3C;
+			productRefGroup = 5F17036C1D07AE100094FE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F17036A1D07AE100094FE3C /* LifeLibExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F1703691D07AE100094FE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F17037E1D07AE100094FE3C /* LaunchScreen.storyboard in Resources */,
+				5F17037B1D07AE100094FE3C /* Assets.xcassets in Resources */,
+				5F1703791D07AE100094FE3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F1703671D07AE100094FE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1703761D07AE100094FE3C /* ViewController.m in Sources */,
+				5F1703731D07AE100094FE3C /* AppDelegate.m in Sources */,
+				5F1703701D07AE100094FE3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F1703771D07AE100094FE3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1703781D07AE100094FE3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F17037C1D07AE100094FE3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F17037D1D07AE100094FE3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F1703801D07AE100094FE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F1703811D07AE100094FE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F1703831D07AE100094FE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../LifeLibrary";
+				INFOPLIST_FILE = LifeLibExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LifeLibExample",
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edimax.LifeLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F1703841D07AE100094FE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../LifeLibrary";
+				INFOPLIST_FILE = LifeLibExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LifeLibExample",
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edimax.LifeLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F1703661D07AE100094FE3C /* Build configuration list for PBXProject "LifeLibExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1703801D07AE100094FE3C /* Debug */,
+				5F1703811D07AE100094FE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1703821D07AE100094FE3C /* Build configuration list for PBXNativeTarget "LifeLibExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1703831D07AE100094FE3C /* Debug */,
+				5F1703841D07AE100094FE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F1703631D07AE100094FE3C /* Project object */;
+}
