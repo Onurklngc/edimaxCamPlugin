@@ -9,7 +9,7 @@
   </description>
 
   <engines>
-    <engine name="cordova" version=">=cli-5.4.1"/>
+    <engine name="cordova" version=">=3.7.0"/>
   </engines>
 
   <asset src="www/edimax.js" target="js/edimax.js"/>
