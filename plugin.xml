@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.edimax.edilife2"
+        version="cli-5.4.1">
+
+  <name>Edimax IOS</name>
+  <description>
+    Edimax Edilife plugin.
+  </description>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/rtspPlayer.js" target="js/rtspPlayer.js"/>
+
+  <js-module src="www/rtspPlayer.js" name="rtspPlayer">
+    <clobbers target="rtspPlayer" />
+  </js-module>
+
+  <platform name="ios">
+
+    <config-file target="config.xml" parent="/widget">
+      <feature name="rtspPlayer">
+        <param name="ios-package" value="CDVrtspPlayer" />
+      </feature>
+    </config-file>
+
+    <source-file src="lib/dist/libMediaStreamingLib.a" framework="true" />
+    <resource-file src="lib/dist/Resources/RTSPViewController_iPhone.xib" />
+    <framework src="libz.dylib" />
+    <framework src="libbz2.dylib" />
+    <framework src="libiconv.dylib" />
+
+    <header-file src="lib/MediaStreamingLib/MediaStreamingLib/RTSPViewController.h" target-dir="rtspplayer/MediaStreamingLib"/>
+    <header-file src="src/ios/CDVrtspPlayer.h" target-dir="rtspplayer"/>
+    <source-file src="src/ios/CDVrtspPlayer.m" target-dir="rtspplayer"/>
+  </platform>
+
+</plugin>
