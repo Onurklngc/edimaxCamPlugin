@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.edimax.edilife2"
+        id="ed23"
         version="0.0.1">
 
   <name>Edimax IOS</name>
@@ -28,23 +28,6 @@
 
 	
 	
-    <source-file src="lib/dist/libLifeLibrary.a" framework="true" />
-    <framework src="CoreGraphics.framework" />
-    <framework src="UIKit.framework" />
-    <framework src="Foundation.framework" />
-    <framework src="AVFoundation.framework" />
-
-	
-	<header-file src="lib/LifeLibExample/LifeLibExample/ViewController.h" target-dir="rtspplayer/MediaStreamingLib"/>
-	
-    <header-file src="src/ios/AppDelegate.h" target-dir="edimax"/>
-	<header-file src="src/ios/LifeLibrary.h" target-dir="edimax"/>
-	<header-file src="src/ios/ViewController.h" target-dir="edimax"/>
-	
-
-    <source-file src="src/ios/AppDelegate.m" target-dir="edimax"/>
-	<source-file src="src/ios/main.m" target-dir="edimax"/>
-	<source-file src="src/ios/ViewController.m" target-dir="edimax"/>
 	
   </platform>
 
