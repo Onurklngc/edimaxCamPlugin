@@ -29,8 +29,6 @@
 	
 	
     <source-file src="lib/dist/libLifeLibrary.a" framework="true" />
-    <resource-file src="lib/dist/Resources/Main.storyboard" />
-	<resource-file src="lib/dist/Resources/LaunchScreen.storyboard" />
     <framework src="CoreGraphics.framework" />
     <framework src="UIKit.framework" />
     <framework src="Foundation.framework" />
