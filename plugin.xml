@@ -23,7 +23,7 @@
 
     <config-file target="config.xml" parent="/widget">
       <feature name="rtspPlayer">
-        <param name="ios-package" value="rtspPlayer" />
+        <param name="ios-package" value="CDVrtspPlayer" />
       </feature>
     </config-file>
 
@@ -45,8 +45,8 @@
     <source-file src="lib/MediaStreamingLib/MediaStreamingLib/AppDelegate.m" target-dir="rtspplayer/MediaStreamingLib"/>
     <source-file src="lib/MediaStreamingLib/MediaStreamingLib/main.m" target-dir="rtspplayer/MediaStreamingLib"/>
 	
-    <header-file src="src/ios/rtspPlayer.h" target-dir="rtspplayer"/>
-    <source-file src="src/ios/rtspPlayer.m" target-dir="rtspplayer"/>
+    <header-file src="src/ios/CDVrtspPlayer.h" target-dir="rtspplayer"/>
+    <source-file src="src/ios/CDVrtspPlayer.m" target-dir="rtspplayer"/>
 	
 	
   </platform>
