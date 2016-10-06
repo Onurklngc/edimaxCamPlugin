@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F1703661D07AE100094FE3C /* Build configuration list for PBXProject "LifeLibExample" */;
+			buildConfigurationList = 5F1703661D07AE100094FE3C /* Build configuration list for PBXProject "MediaStreamingLib" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -299,6 +299,7 @@
 					"$(PROJECT_DIR)/LifeLibExample",
 				);
 				MACH_O_TYPE = mh_execute;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edimax.LifeLibExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -318,6 +319,7 @@
 					"$(PROJECT_DIR)/LifeLibExample",
 				);
 				MACH_O_TYPE = mh_execute;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edimax.LifeLibExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -326,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F1703661D07AE100094FE3C /* Build configuration list for PBXProject "LifeLibExample" */ = {
+		5F1703661D07AE100094FE3C /* Build configuration list for PBXProject "MediaStreamingLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F1703801D07AE100094FE3C /* Debug */,
