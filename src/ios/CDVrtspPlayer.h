@@ -6,9 +6,9 @@
 #import "MediaStreamingLib/ViewController.h"
 
 
-@interface CDVrtspPlayer : CDVPlugin {
+@interface CDVrtspPlayer : CDVPlugin
 
-}
+
 @property (nonatomic, retain) UIViewController* streamViewController;
 @property (readwrite, assign) BOOL hasPendingOperation;
 @property (nonatomic, weak) CDVInvokedUrlCommand* lastCommand;

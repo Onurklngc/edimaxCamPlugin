@@ -11,7 +11,7 @@
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
-    self.streamViewController = [sb instantiateViewControllerWithIdentifier:@"myViewController"];
+    self.streamViewController = [sb instantiateViewControllerWithIdentifier:@"ViewController"];
     
     [self.streamViewController setStreamUrl:url];
     
