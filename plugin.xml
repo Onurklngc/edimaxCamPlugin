@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="rtspPlayer"
+        id="com.madtatu.rtspPlayer"
         version="0.0.1">
 
-  <name>Edimax IOS</name>
+  <name>rtspPlayer</name>
   <description>
     Edimax Edilife plugin.
   </description>
