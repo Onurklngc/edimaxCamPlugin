@@ -15,4 +15,7 @@
 
 - (void)playRTSP:(CDVInvokedUrlCommand*)command;
 
+- (void)showStreamPlayer:(NSString*)url;
+
+
 @end
