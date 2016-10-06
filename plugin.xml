@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="rtspPlayer"
+        id="com.madtatu.rtspPlayer"
         version="0.0.1">
 
   <name>rtspPlayer</name>
@@ -10,7 +10,7 @@
 
 
   <engines>
-	<engine name="cordova" version=">=3.0.0" />
+	<engine name="cordova" version=">=3.4.0" />
   </engines>
 
   <asset src="www/rtspPlayer.js" target="js/rtspPlayer.js"/>
