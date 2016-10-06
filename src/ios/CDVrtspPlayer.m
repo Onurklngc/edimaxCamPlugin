@@ -1,6 +1,6 @@
-#import "rtspPlayer.h"
+#import "CDVrtspPlayer.h"
 
-@implementation rtspPlayer
+@implementation CDVrtspPlayer
 
 @synthesize viewController;
 
