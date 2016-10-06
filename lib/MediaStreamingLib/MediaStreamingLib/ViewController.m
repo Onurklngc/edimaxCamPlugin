@@ -95,7 +95,7 @@
 }
 - (IBAction)connectDevice:(id)sender
 {
-    lib.macAddress = @"74DA38629873";
+  //  lib.macAddress = @"74DA38629873";
     lib.username = @"admin";
     lib.password = @"1234";
     
@@ -121,6 +121,13 @@
     //    [lib connectWithLifeAPI:LIFE_JOB_CUSTOM_CGI connectType:TUNNEL_RULE_AUTO jobType:Job_DoEvent command:@"/camera-cgi/getEventJPEG.cgi"];
     //=================================================
 }
+
+- (void)setStreamUrl:(NSString *)url{
+    if (url == nullable || url = @"") {
+        lib.macAddress = @"74DA38629873";
+    } else lib.macAddress = url;
+}
+
 
 - (IBAction)sendAudio:(id)sender
 {

@@ -37,5 +37,8 @@ typedef enum
 @property (weak, nonatomic) IBOutlet UIImageView *imgview;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
+
+- (void) setStreamUrl:(NSString *)url;
+
 @end
 
