@@ -9,7 +9,7 @@
 @interface CDVrtspPlayer : CDVPlugin
 
 
-@property (nonatomic, retain) UIViewController* streamViewController;
+@property (nonatomic, retain) ViewController* streamViewController;
 @property (readwrite, assign) BOOL hasPendingOperation;
 @property (nonatomic, weak) CDVInvokedUrlCommand* lastCommand;
 
