@@ -6,7 +6,7 @@
 #import "MediaStreamingLib/ViewController.h"
 
 
-@interface rtspPlayer : CDVPlugin
+@interface CDVrtspPlayer : CDVPlugin
 
 
 @property (nonatomic, retain) UIViewController* streamViewController;
