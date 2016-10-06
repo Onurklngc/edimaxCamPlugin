@@ -10,7 +10,8 @@
 
 
   <engines>
-        <engine name="cordova" version=">=6.3.0"/>
+          <engine name="cordova" version=">=6.0.0"/>
+          <engine name="cordova-ios" version=">=4.0.0"/>
   </engines>
 
   <asset src="www/rtspPlayer.js" target="js/rtspPlayer.js"/>
