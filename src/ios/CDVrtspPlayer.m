@@ -6,7 +6,8 @@
 
 - (void)showStreamPlayer:(NSString*)url
 {
-    self.hasPendingOperation = YES;    
+    self.hasPendingOperation = YES;   
+	printf("hello");	
 }
 
 - (void)playRTSP:(CDVInvokedUrlCommand*) command
