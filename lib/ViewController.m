@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#include "LifeLibrary.h"
+#include <LifeLibrary.h>
 
 @interface ViewController ()
 
