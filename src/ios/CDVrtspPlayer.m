@@ -5,10 +5,7 @@
 @synthesize viewController;
 
 - (void)showStreamPlayer:(NSString*)url
-{
-    self.hasPendingOperation = YES;   
-	printf("hello");	
-	
+{ 	
 	UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
     self.streamViewController = [sb instantiateViewControllerWithIdentifier:@"ViewController"];
