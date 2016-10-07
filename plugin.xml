@@ -27,8 +27,21 @@
       </feature>
     </config-file>
 
+
+	<resource-file src="lib/Base.lproj/Main.storyboard" />
+	<resource-file src="lib/Base.lproj/LaunchScreen.storyboard" />
+	
+	<framework src="CoreGraphics.framework" />
+    <framework src="UIKit.framework" />
+    <framework src="Foundation.framework" />
+    <framework src="AVFoundation.framework" />
+	
+	<header-file src="lib/ViewController.h" target-dir="rtspplayer/lib"/>
 	<header-file src="src/ios/CDVrtspPlayer.h" target-dir="rtspplayer"/>
     <source-file src="src/ios/CDVrtspPlayer.m" target-dir="rtspplayer"/>
+	
+	
+	
   </platform>
 
 </plugin>

@@ -8,6 +8,15 @@
 {
     self.hasPendingOperation = YES;   
 	printf("hello");	
+	
+	UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    self.streamViewController = [sb instantiateViewControllerWithIdentifier:@"ViewController"];
+    
+    [self.streamViewController setStreamUrl:url];
+    
+    [self.viewController presentViewController:self.streamViewController animated:YES completion:nil];
+	
 }
 
 - (void)playRTSP:(CDVInvokedUrlCommand*) command
