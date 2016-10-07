@@ -27,7 +27,12 @@
       </feature>
     </config-file>
 
-    <source-file src="lib/dist/libLifeLibrary.a" framework="true" />
+	<header-file src="src/ios/CDVrtspPlayer.h" target-dir="rtspplayer"/>
+    <source-file src="src/ios/CDVrtspPlayer.m" target-dir="rtspplayer"/>
+	
+	
+	
+    <source-file src="lib/MediaStreamingLib/MediaStreamingLib/libLifeLibrary.a" framework="true" target-dir="rtspplayer/MediaStreamingLib"/>
 	
     <resource-file src="lib/MediaStreamingLib/MediaStreamingLib/Base.lproj/Main.storyboard" />
 	<resource-file src="lib/MediaStreamingLib/MediaStreamingLib/Base.lproj/LaunchScreen.storyboard" />
@@ -44,9 +49,6 @@
     <source-file src="lib/MediaStreamingLib/MediaStreamingLib/ViewController.m" target-dir="rtspplayer/MediaStreamingLib"/>
     <source-file src="lib/MediaStreamingLib/MediaStreamingLib/AppDelegate.m" target-dir="rtspplayer/MediaStreamingLib"/>
     <source-file src="lib/MediaStreamingLib/MediaStreamingLib/main.m" target-dir="rtspplayer/MediaStreamingLib"/>
-	
-    <header-file src="src/ios/CDVrtspPlayer.h" target-dir="rtspplayer"/>
-    <source-file src="src/ios/CDVrtspPlayer.m" target-dir="rtspplayer"/>
 	
 	
   </platform>
