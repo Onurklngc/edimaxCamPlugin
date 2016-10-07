@@ -29,7 +29,6 @@
 
 
 	<resource-file src="lib/Base.lproj/Main.storyboard" />
-	<resource-file src="lib/Base.lproj/LaunchScreen.storyboard" />
 	
 	<framework src="CoreGraphics.framework" />
     <framework src="UIKit.framework" />
