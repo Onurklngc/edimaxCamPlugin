@@ -10,7 +10,7 @@
 
 
   <engines>
-	<engine name="cordova" version=">=3.4.0" />
+	<engine name="cordova" version=">=3.4.0"/>
   </engines>
 
   <asset src="www/rtspPlayer.js" target="js/rtspPlayer.js"/>
@@ -29,28 +29,6 @@
 
 	<header-file src="src/ios/CDVrtspPlayer.h" target-dir="rtspplayer"/>
     <source-file src="src/ios/CDVrtspPlayer.m" target-dir="rtspplayer"/>
-	
-	
-	
-    <source-file src="lib/MediaStreamingLib/MediaStreamingLib/libLifeLibrary.a" framework="true" target-dir="rtspplayer/MediaStreamingLib"/>
-	
-    <resource-file src="lib/MediaStreamingLib/MediaStreamingLib/Base.lproj/Main.storyboard" />
-	<resource-file src="lib/MediaStreamingLib/MediaStreamingLib/Base.lproj/LaunchScreen.storyboard" />
-	
-    <framework src="CoreGraphics.framework" />
-    <framework src="UIKit.framework" />
-    <framework src="Foundation.framework" />
-    <framework src="AVFoundation.framework" />
-
-    <header-file src="lib/MediaStreamingLib/MediaStreamingLib/ViewController.h" target-dir="rtspplayer/MediaStreamingLib"/>
-    <header-file src="lib/MediaStreamingLib/MediaStreamingLib/AppDelegate.h" target-dir="rtspplayer/MediaStreamingLib"/>
-    <header-file src="lib/MediaStreamingLib/MediaStreamingLib/LifeLibrary.h" target-dir="rtspplayer/MediaStreamingLib"/>
-	
-    <source-file src="lib/MediaStreamingLib/MediaStreamingLib/ViewController.m" target-dir="rtspplayer/MediaStreamingLib"/>
-    <source-file src="lib/MediaStreamingLib/MediaStreamingLib/AppDelegate.m" target-dir="rtspplayer/MediaStreamingLib"/>
-    <source-file src="lib/MediaStreamingLib/MediaStreamingLib/main.m" target-dir="rtspplayer/MediaStreamingLib"/>
-	
-	
   </platform>
 
 </plugin>
