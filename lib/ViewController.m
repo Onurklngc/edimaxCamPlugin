@@ -123,7 +123,7 @@
 }
 
 - (void)setStreamUrl:(NSString *)url{
-    if (url == nil || url = @"") {
+    if (url == (id)[NSNull null] || url.length == 0 ) {
         lib.macAddress = @"74DA38629873";
     } else lib.macAddress = url;
 }
