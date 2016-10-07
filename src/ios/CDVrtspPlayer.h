@@ -3,12 +3,12 @@
 #import <AVFoundation/AVFoundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
-#import "ViewController.h"
+
 
 @interface CDVrtspPlayer : CDVPlugin{
 
 }
-@property (nonatomic, retain) ViewController* streamViewController;
+
 @property (readwrite, assign) BOOL hasPendingOperation;
 @property (nonatomic, weak) CDVInvokedUrlCommand* lastCommand;
 
