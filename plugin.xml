@@ -27,7 +27,6 @@
       </feature>
     </config-file>
 
-	<source-file src="lib/libLifeLibrary.a" framework="true"/>
 	<resource-file src="lib/Base.lproj/Main.storyboard" />
 
 	
