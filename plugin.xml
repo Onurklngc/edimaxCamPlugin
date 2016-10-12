@@ -29,11 +29,7 @@
 
 	<source-file src="lib/libLifeLibrary.a" framework="true"/>
 	<resource-file src="lib/Base.lproj/Main.storyboard" />
-	
-	<framework src="CoreGraphics.framework" weak="true"/>
-    <framework src="UIKit.framework" weak="true"/>
-    <framework src="Foundation.framework" weak="true"/>
-    <framework src="AVFoundation.framework" weak="true"/>
+
 	
 	<header-file src="lib/LifeLibrary.h" target-dir="rtspplayer/lib"/>
 	<header-file src="lib/ViewController.h" target-dir="rtspplayer/lib"/>
