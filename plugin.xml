@@ -30,7 +30,7 @@
 	<source-file src="lib/libLifeLibrary.a" framework="true"/>
 	<resource-file src="lib/Base.lproj/Main.storyboard" />
 	
-	<framework src="CoreGraphics.framework" />
+	<framework src="CoreGraphics.framework" weak="true"/>
     <framework src="UIKit.framework" />
     <framework src="Foundation.framework" />
     <framework src="AVFoundation.framework" />
