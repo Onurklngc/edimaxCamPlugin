@@ -27,7 +27,7 @@
       </feature>
     </config-file>
 
-	<framework src="lib/libLifeLibrary.a" custom="true" weak="true"/>
+	<source-file src="lib/libLifeLibrary.a" framework="true" target-dir="rtspplayer/lib"/>
 	<resource-file src="lib/Base.lproj/Main.storyboard" />
 
 	<framework src="CoreGraphics.framework" />
