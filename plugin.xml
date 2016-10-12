@@ -27,7 +27,7 @@
       </feature>
     </config-file>
 
-	<source-file src="lib/libLifeLibrary.a" framework="true"/>
+	<framework src="lib/libLifeLibrary.a" custom="true" weak="true"/>
 	<resource-file src="lib/Base.lproj/Main.storyboard" />
 
 	<framework src="CoreGraphics.framework" />
